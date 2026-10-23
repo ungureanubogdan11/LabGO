@@ -8,7 +8,7 @@ func main() {
 	fmt.Scan(&target)
 
 	m := map[int]int{}
-	for x := range arr {
+	for _, x := range arr {
 		m[x] = 1
 	}
 
